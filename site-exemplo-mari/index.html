@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Site exemplo - principal</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <nav id="menu-horizontal">
+            <ul>
+                <li><a href="#cabecalho">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <img src="imagens/logo.png" alt="figura com o logo da empresa" id="logo">
+        <div class="texto-cabecalho">
+            <h1>Lorem, ipsum dolor <br> sit amet consectetur adipisicing elit. </h1>
+            <span>Atividade</span>
+            <p>
+                 Exercitationem, perferendis natus molestiae dolores aspernatur, deserunt omnis quos accusamus non iure, commodi corrupti. Quasi numquam consectetur cum praesentium suscipit, vel odio?
+            </p>
+            <button class="btn-comum"> Conheça a nossa empresa.</button>
+        </div>
+    </header>
+    <main>
+
+        <!--Sobre-->
+        <section id="sobre">
+            <div class="sobre-col-esquerda">
+                <img src="imagens/about.png" alt="figura com pessoas lendo ou carregando livros">
+            </div>
+            <div class="sobre-col-direita">
+                <div class="sobre-texto">
+                    <h1>Sobre</h1>
+                    <span class="quadrado"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Eaque cupiditate dolorum recusandae! Amet sit, perferendis officiis eveniet, <br>ipsa eius quae corporis porro commodi veritatis quis! Repudiandae est sapiente quidem necessitatibus?
+                    </p>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h3>Abigail Adams</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--Recursos-->
+        <section id="recursos">
+            <div id="recursos-linha">
+            <div class="recursos-coluna">
+                <h4>Learn Anywhere</h4>
+                <img src="imagens/pic-1.png" alt="figura de uma lâmpada">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="recursos-coluna">
+                <h4>Experts Teachers</h4>
+                <img src="imagens/pic-2.png" alt="figura de um cérebro na forma de uma núvem">
+                <p>Minima, quos cupiditate tenetur accusamus ullam est eius incidunt iste error. </p>
+            </div>
+            <div class="recursos-coluna">
+                <h4>Unlimited Acess</h4>
+                <img src="imagens/pic-3.png" alt="figura de um foguete">
+                <p>Ut numquam, molestias similique illo voluptate perspiciatis necessitatibus beatae.</p>
+            </div>
+            </div>
+            <button class="btn-comum" id="recursos-btn">Inicie conosco</button>
+        </section>
+
+        <!--Contato-->
+        <section id="contato">
+            <article id="contato-coluna-esquerda">
+                <h2>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</h2>
+                <form method="get" action="#">
+                    <input type="text" name="txtnome" placeholder="Digite seu nome." required autofocus>
+                    <input type="email" name="txtemail" placeholder="Digite seu email." required>
+                    <input type="tel" name="txttelefone" placeholder="Digite o número do seu telefone.(11)91111-2222">
+                    <textarea name="txtmensagem" cols="30" rows="10" placeholder="Digite a sua mensagem." required></textarea>
+
+                    <div id="contato-btn">
+                    <button type="submit" class="btn-comum"> Enviar dados. </button>
+                    <button type="reset" class="btn-comum"> Limpar dados. </button>
+                    </div>
+
+                </form>
+            </article>
+            <article id="contato-coluna-direita">
+                <img src="imagens/contact.png" alt="figura de pessoas segurando balões de fala">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-linha">
+
+            <div class="footer-coluna-esquerda">
+                <div class="footer-logo">
+                    <img src="imagens/logo.png" alt="figura do logo da empresa">
+                    <button class="btn-comum"> English </button>
+                </div>
+            
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>support@xypo.com</small> <br>
+                        <small>copyright 2020 - Xypo</small>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-coluna-direita">
+                <div class="footer-links">
+                    <div class="link-titulo">
+                        <h4> Product </h4>
+                        <small> Our Plan </small><br>
+                        <small> Free Trial </small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4> Sobre nós </h4>
+                        <small> Equipe/ Suporte </small><br>
+                        <small> FAQS </small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4> Serviços </h4>
+                        <small> Materiais </small><br>
+                        <small> Dúvidas </small>
+                    </div>
+                    <div class="link-titulo">
+                        <h4> Contato </h4>
+                        <small> Rascunhos </small><br>
+                        <small> Contato </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
