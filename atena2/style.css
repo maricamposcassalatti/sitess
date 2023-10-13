@@ -1,0 +1,213 @@
+*{margin: 0;}
+
+@font-face {
+    font-family: "fonte1";
+    src: url(/fontes/Josefin_Sans/);
+ }
+
+ body { background-color: #730707;}
+
+ header
+ { background-color: #756A6A;
+    color:#756A6A;
+    align-items:center;
+    width: 100%;
+    height: 115px;
+
+
+}
+
+input{
+    padding: 2px 10px 2px 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 24px;   
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+ }
+
+    #mim {
+
+    width: 145px;
+    height: 30px;
+    flex-direction:column;
+    color: #FFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+    
+    #euuu {
+        width: 100px;
+        height: 75px;
+        border-radius: 20px; 
+
+    
+    }    
+
+    #comentarios {
+
+        width: 110px;
+        height: 110px;
+    }
+
+    .af {  float:right}
+
+    main {
+        align-items: center;
+    }
+
+    #livro-texto {
+
+    
+        float: left;
+        width: 530px;
+        height: 570px;
+        border-radius: 25px;
+        background: #D9D9D9;
+        
+        display: flex;
+        display: flex; 
+     align-items:center;
+     justify-content: center;
+    
+    }
+
+    #est {
+
+   
+        width: 260px;
+        height: 120px;
+        color: #000;
+        font-size: 22px;
+        font-family:sans-serif;
+        position: absolute;
+        display: flex;
+
+      }
+      
+
+      #livropng {
+
+        width: 390px;
+        height: 265px;
+        display: flex; 
+      
+      }
+
+      #coruja {
+
+        width: 140px;
+        height: 110px;
+        display: flex;}
+
+    #online {
+
+        width: 20px;
+        height: 20px;
+    }
+
+    .vey {
+     display: flex; 
+     align-items:center;
+     justify-content: center;}
+    
+
+
+      #aff {
+      
+          display: flex;
+        width: 218px;
+        height: 32px;
+        color: #000;
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        margin: auto;
+    
+      }
+      
+      #parth {
+      
+          width: 65px;
+         height: 60px;
+         margin: auto;
+        
+         float:inline-end;
+        
+        
+      }
+    
+
+    #escuro {
+        
+        float: right;
+        width: 1000px;     
+        height: 570px;      
+        border-radius: 24px;         
+        background: #862828;
+    }
+
+    #atena {
+
+        width: 250px;
+        height: 400px;
+        float:left;
+        
+    }
+
+   .texto1 {
+
+    float: inline-start;
+
+
+   }
+
+       
+     
+    #sm {
+       
+     width: 321px;
+     height: 27px;
+     color: #ffffff;
+     font-size: 32px;
+     font-family: Serif;
+     font-style: normal;
+     font-weight: 600;
+     
+    }
+    
+    #blabla {
+    
+        width: 302px;
+        height: 202px;
+        color: #FFF;
+        text-align: center;
+      font-size: 26px;
+      font-family: Inria Serif;
+      font-style: normal;
+      font-weight: 400;
+      
+    }
+
+    #sites {
+
+        align-items: center;
+        width: 990px;
+        height: 200px;
+        border-radius: 25px;
+        background: #D9D9D9;
+        margin: auto;
+        bottom: 0;
+        position: fixed;
+        display: flex; 
+        align-items:center;
+         justify-content: center;
+        
+    
+    }
+
+
+
+    
+
+
